@@ -1,0 +1,22 @@
+.pacman {
+   width: 100px;
+   margin: 80px;
+   border-top: 100px solid rgb(255,255,0);
+   border-left: 100px solid rgb(255,255,0);
+   border-right: 100px solid transparent;
+   border-bottom: 100px solid rgb(255,255,0);
+   border-radius: 50%;
+   filter: drop-shadow(0 0 10px);
+   position: relative; /* Para posiconar el ojo encima */
+}
+
+.pacman::before {
+   content: "";
+   position: absolute; /* Se tiene que poner el padre en 'relative' para posicionar encima */
+   height: 25px;
+   width: 25px;
+   background-color: #000;
+   border-radius: 50%;
+   top: -60px;
+   right: -10px;
+}

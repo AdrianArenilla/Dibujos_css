@@ -1,0 +1,19 @@
+.bandera {
+   position: relative;
+   width: 400px;
+   height: 50px;
+   background-color: #AD1519;
+   margin: 80px;
+   box-shadow: 0 50px #FABD00, 0 100px #FABD00, 0 150px #AD1519;
+}
+
+.escudo {
+   position: absolute;
+   background-image: url(assets/img/escudo.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 80px;
+   height: 80px;
+   top: 60px;
+   left: 60px;
+}
